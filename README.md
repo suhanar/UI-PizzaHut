@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# React Pizza Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project for a pizza website, built using React Bootstrap and React Router DOM. Now this is a basic website , where user can see the options of pizzas and the about section. For future, I will add a backend for this website.
+# Getting Started
 
-## Available Scripts
+To get started with the project, follow these steps:
 
-In the project directory, you can run:
+    Clone the repository:
 
-### `npm start`
+bash
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/suhanar/UI-PizzaHut.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    Install the dependencies:
 
-### `npm test`
+bash
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd food-pizza-app
+npm install
 
-### `npm run build`
+    Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+sql
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Open http://localhost:3000 to view the website in your browser.
 
-### `npm run eject`
+# Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project has the following structure:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+java
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+├── public
+│   ├── index.html
+│   └── ...
+├── src
+│   ├── components
+│   │   ├── PizzaCard.js
+│   │   ├── PizzaCustomizer.js
+│   │   ├── PizzaList.js
+│   │   └── ...
+│   ├── images
+│   │   ├── pizza-1.jpg
+│   │   ├── pizza-2.jpg
+│   │   └── ...
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── package.json
+└── ...
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    public/: This directory contains the public files of the website, including index.html.
 
-## Learn More
+    src/: This directory contains the source files of the website, including components, assets,pages and App.js and index.js,helper files.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    components/: This directory contains React components that are used in the website, including NavbarComp.js, Home.js, Footer.js, and others.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    assets/: This directory contains images used in the website.
 
-### Code Splitting
+    App.js: This file is the main component of the website, containing the header, footer, and routes for the pages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    index.js: This file is the entry point of the website, rendering the App component to the DOM.
 
-### Analyzing the Bundle Size
+# Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions to the project are welcome. To contribute, follow these steps:
 
-### Making a Progressive Web App
+    Fork the repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+    Create a new branch:
 
-### Advanced Configuration
+css
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+git checkout -b my-feature-branch
 
-### Deployment
+    Make your changes and commit them:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+sql
 
-### `npm run build` fails to minify
+git commit -m "Added a new feature"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Push your changes to your forked repository:
+
+perl
+
+git push origin my-feature-branch
+
+    Open a pull request on the original repository.
+
+# License
+
