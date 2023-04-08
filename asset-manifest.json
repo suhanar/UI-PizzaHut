@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/suhanar/UI-PizzaHut.git/static/css/main.765a707e.css",
+    "main.js": "/suhanar/UI-PizzaHut.git/static/js/main.152a9eef.js",
+    "static/js/787.f179ceda.chunk.js": "/suhanar/UI-PizzaHut.git/static/js/787.f179ceda.chunk.js",
+    "static/media/pizza.avif": "/suhanar/UI-PizzaHut.git/static/media/pizza.df4d1b90088c186f2406.avif",
+    "static/media/expensive.avif": "/suhanar/UI-PizzaHut.git/static/media/expensive.7fa3ff11af8ecb7e2384.avif",
+    "static/media/pineapple.avif": "/suhanar/UI-PizzaHut.git/static/media/pineapple.7fa3ff11af8ecb7e2384.avif",
+    "static/media/vegan.avif": "/suhanar/UI-PizzaHut.git/static/media/vegan.77133096f681464bfff5.avif",
+    "static/media/pedrotechspecial.avif": "/suhanar/UI-PizzaHut.git/static/media/pedrotechspecial.94bb68843fc6fd902336.avif",
+    "static/media/abouthero.avif": "/suhanar/UI-PizzaHut.git/static/media/abouthero.a9dcb3906cb7324406f5.avif",
+    "static/media/margherita.avif": "/suhanar/UI-PizzaHut.git/static/media/margherita.91e12dbc380d67b61014.avif",
+    "static/media/pepperoni.avif": "/suhanar/UI-PizzaHut.git/static/media/pepperoni.b75940b9958b4f220ce3.avif",
+    "static/media/pizzamaking.avif": "/suhanar/UI-PizzaHut.git/static/media/pizzamaking.361178e8a0ca00c660f0.avif",
+    "static/media/pizzaHome.jpg": "/suhanar/UI-PizzaHut.git/static/media/pizzaHome.54dd08b2cac7313d9300.jpg",
+    "static/media/logo.svg": "/suhanar/UI-PizzaHut.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/suhanar/UI-PizzaHut.git/index.html",
+    "main.765a707e.css.map": "/suhanar/UI-PizzaHut.git/static/css/main.765a707e.css.map",
+    "main.152a9eef.js.map": "/suhanar/UI-PizzaHut.git/static/js/main.152a9eef.js.map",
+    "787.f179ceda.chunk.js.map": "/suhanar/UI-PizzaHut.git/static/js/787.f179ceda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765a707e.css",
+    "static/js/main.152a9eef.js"
+  ]
+}
